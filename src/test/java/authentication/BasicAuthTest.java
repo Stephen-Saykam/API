@@ -9,10 +9,8 @@ public class BasicAuthTest {
 	@Test
 	public void basicAuthTest()
 	{
-		given()
-		.auth().basic("rmgyantra", "rmgy@9999")
-		.when()
-		.get("http://localhost:8084/login")
+		given().auth().basic("rmgyantra", "rmgy@9999")
+		.when().get("http://localhost:8084/login")
 		.then()
 		.log().all();
 	}

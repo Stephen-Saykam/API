@@ -14,7 +14,7 @@ public class ValidatingResponseTimeTest {
 	public void validatingResponseTimeTest()
 	{
 //		when()
-//		.get("http;//localhost:8084/projects")
+//		.get("http://localhost:8084/projects")
 //		.then()
 //		.assertThat().time(Matchers.lessThan(5000L),TimeUnit.MILLISECONDS)
 //		.log().all();
