@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-16T15:33:28 IST" name="Suite" finished-at="2021-12-16T15:33:32 IST" duration-ms="3410">
+  <suite started-at="2021-12-16T16:04:22 IST" name="Suite" finished-at="2021-12-16T16:04:23 IST" duration-ms="1448">
     <groups>
     </groups>
-    <test started-at="2021-12-16T15:33:28 IST" name="Test" finished-at="2021-12-16T15:33:32 IST" duration-ms="3410">
-      <class name="com.TestCases.EndToEnd_3_Test">
-        <test-method signature="end_To_End()[pri:0, instance:com.TestCases.EndToEnd_3_Test@593aaf41]" started-at="2021-12-16T15:33:31 IST" name="end_To_End" finished-at="2021-12-16T15:33:32 IST" duration-ms="232" status="PASS">
+    <test started-at="2021-12-16T16:04:22 IST" name="Test" finished-at="2021-12-16T16:04:23 IST" duration-ms="1448">
+      <class name="authentication.DigestiveTest">
+        <test-method signature="digestiveTest()[pri:0, instance:authentication.DigestiveTest@2b48a640]" started-at="2021-12-16T16:04:22 IST" name="digestiveTest" finished-at="2021-12-16T16:04:23 IST" duration-ms="1415" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- end_To_End -->
-      </class> <!-- com.TestCases.EndToEnd_3_Test -->
-      <class name="com.TestCases.EndToEnd_2_Test">
-        <test-method is-config="true" signature="connectDataBase()[pri:0, instance:com.TestCases.EndToEnd_2_Test@2ed2d9cb]" started-at="2021-12-16T15:33:28 IST" name="connectDataBase" finished-at="2021-12-16T15:33:28 IST" duration-ms="336" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectDataBase -->
-        <test-method signature="endToEndTest()[pri:0, instance:com.TestCases.EndToEnd_2_Test@2ed2d9cb]" started-at="2021-12-16T15:33:28 IST" name="endToEndTest" finished-at="2021-12-16T15:33:31 IST" duration-ms="3030" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endToEndTest -->
-        <test-method is-config="true" signature="disConnectDataBase()[pri:0, instance:com.TestCases.EndToEnd_2_Test@2ed2d9cb]" started-at="2021-12-16T15:33:32 IST" name="disConnectDataBase" finished-at="2021-12-16T15:33:32 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disConnectDataBase -->
-      </class> <!-- com.TestCases.EndToEnd_2_Test -->
-      <class name="com.TestCases.EndToEndTest">
-        <test-method signature="connectToDB()[pri:0, instance:com.TestCases.EndToEndTest@5a56cdac]" started-at="2021-12-16T15:33:32 IST" name="connectToDB" finished-at="2021-12-16T15:33:32 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectToDB -->
-        <test-method signature="endToEndTest()[pri:0, instance:com.TestCases.EndToEndTest@5a56cdac]" started-at="2021-12-16T15:33:32 IST" name="endToEndTest" finished-at="2021-12-16T15:33:32 IST" duration-ms="97" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endToEndTest -->
-      </class> <!-- com.TestCases.EndToEndTest -->
+        </test-method> <!-- digestiveTest -->
+      </class> <!-- authentication.DigestiveTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
