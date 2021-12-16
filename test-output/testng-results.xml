@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-16T16:04:22 IST" name="Suite" finished-at="2021-12-16T16:04:23 IST" duration-ms="1448">
+  <suite started-at="2021-12-16T16:47:48 IST" name="Default suite" finished-at="2021-12-16T16:47:50 IST" duration-ms="1385">
     <groups>
     </groups>
-    <test started-at="2021-12-16T16:04:22 IST" name="Test" finished-at="2021-12-16T16:04:23 IST" duration-ms="1448">
-      <class name="authentication.DigestiveTest">
-        <test-method signature="digestiveTest()[pri:0, instance:authentication.DigestiveTest@2b48a640]" started-at="2021-12-16T16:04:22 IST" name="digestiveTest" finished-at="2021-12-16T16:04:23 IST" duration-ms="1415" status="PASS">
+    <test started-at="2021-12-16T16:47:48 IST" name="Default test" finished-at="2021-12-16T16:47:50 IST" duration-ms="1385">
+      <class name="crudOperations_Without_BDD.GetAllProjectsTest">
+        <test-method signature="getAllprojectsTest()[pri:0, instance:crudOperations_Without_BDD.GetAllProjectsTest@3c73951]" started-at="2021-12-16T16:47:48 IST" name="getAllprojectsTest" finished-at="2021-12-16T16:47:50 IST" duration-ms="1351" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- digestiveTest -->
-      </class> <!-- authentication.DigestiveTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- getAllprojectsTest -->
+      </class> <!-- crudOperations_Without_BDD.GetAllProjectsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -21,6 +21,7 @@ public class GetAllProjectsTest {
 		valresp.assertThat().statusCode(200);
 		valresp.assertThat().contentType("application/json");
 		valresp.log().all();
+		System.out.println("Print");
 		
 	}
 
