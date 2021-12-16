@@ -2,6 +2,8 @@ package crudOperations_With_BDD;
 
 import static io.restassured.RestAssured.*;
 
+import java.util.Random;
+
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
@@ -12,9 +14,12 @@ public class UpdateProjectTest {
 	@Test
 	public void updateProject()
 	{
+		Random r = new Random();
+		int rNum = r.nextInt(2000);
+		
 		JSONObject jobj = new JSONObject();
 		jobj.put("createdBy", "steef");
-		jobj.put("projectName", "TYSS_789");
+		jobj.put("projectName", "TYSS"+rNum);
 		jobj.put("status", "On Going");
 		jobj.put("teamSize", 10);
 		
@@ -23,7 +28,7 @@ public class UpdateProjectTest {
 		.body(jobj)
 		
 		.when()
-		.put("http://localhost:8084/projects/TY_PROJ_1005")
+		.put("http://localhost:8084/projects/TY_PROJ_1205")
 		.then()
 		.assertThat()
 		.statusCode(200)

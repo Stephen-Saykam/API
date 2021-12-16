@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="authentication.BarearTokenTest"/>
+      <class name="authentication.BasicAuthTest"/>
+      <class name="authentication.Oauth2_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

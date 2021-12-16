@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestCases.EndToEnd_3_Test">
+      <class name="crudOperations_With_BDD.UpdateProjectTest">
         <methods>
-          <include name="connectDataBase"/>
-          <include name="disConnectDataBase"/>
-          <include name="end_To_End"/>
+          <include name="updateProject"/>
         </methods>
-      </class> <!-- com.TestCases.EndToEnd_3_Test -->
+      </class> <!-- crudOperations_With_BDD.UpdateProjectTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

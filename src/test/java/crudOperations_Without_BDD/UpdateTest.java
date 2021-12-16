@@ -1,5 +1,7 @@
 package crudOperations_Without_BDD;
 
+import java.util.Random;
+
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
@@ -14,9 +16,14 @@ public class UpdateTest {
 	@Test
 	public void updateTest()
 	{
+		//create an Object for random Class
+		
+		Random r = new Random();
+		int rNum = r.nextInt(2000);
+		
 		JSONObject jobj = new JSONObject();
 		jobj.put("createdBy", "steef");
-		jobj.put("projectName", "TYSS_4545");
+		jobj.put("projectName", "Ducati"+rNum);
 		jobj.put("status", "On Going");
 		jobj.put("teamSize", 10);
 		
@@ -24,7 +31,7 @@ public class UpdateTest {
 		reqspec.contentType(ContentType.JSON);
 		reqspec.body(jobj);
 		
-		Response res = reqspec.put("http://localhost:8084/projects/TY_PROJ_1007");
+		Response res = reqspec.put("http://localhost:8084/projects/TY_PROJ_2009");
 		ValidatableResponse valres = res.then();
 		valres.assertThat().statusCode(200);
 		valres.log().all();

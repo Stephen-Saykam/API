@@ -1,5 +1,7 @@
 package crudOperations_Without_BDD;
 
+import java.util.Random;
+
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
@@ -15,9 +17,14 @@ public class CreateTest {
 	@Test
 	public void createTest()
 	{
+		//create an Object for random Class
+		
+		Random r = new Random();
+		int rNum = r.nextInt(2000);
+				
 		JSONObject jobj = new JSONObject();
 		jobj.put("createdBy", "steef");
-		jobj.put("projectName", "TYSS25");
+		jobj.put("projectName", "Honda"+rNum);
 		jobj.put("status", "On Going");
 		jobj.put("teamSize", 10);
 		
